@@ -5,3 +5,96 @@
     Verde: #49a09d
     Lilás: #5f2c82
 */
+
+:root {
+    --verde: #49a09d;
+    --verde-claro: #6CD3CF;
+    --verde-claro-demais: #94CFCD;
+    --verde-escuro: #2D6461;
+    --lilás: #5f2c82;
+}
+
+body, html {
+    background-color: var(--lilás);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    height: 470px;
+    width: 270px;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+secion > div > img {
+    
+}
+
+main > section > div > h1 {
+    text-align: center;
+}
+
+main > section > div > p {
+    text-align: justify;
+}
+
+p.fundo {
+    background-color: var(--lilás);
+    border-radius: 10px;
+}
+
+input.config {
+    background-color: var(--verde-claro-demais);
+    border: 1px solid var(--verde-claro-demais);
+    border-radius: 8px;
+    padding: 10px 60px 10px 10px;
+    margin-left: 2px;
+    font-size: 17px;
+}
+
+span {
+    
+}
+
+
+input#enviar {
+    background-color: var(--verde);
+    color: white;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    padding: 10px 110px 10px 110px;
+    border: 1px solid var(--verde);
+    border-radius: 5px;
+}
+
+
+input#enviar:hover {
+    background-color: var(--verde-escuro);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    display: block;
+    font-size: 17px;
+    background-color: white;
+    color: var(--verde-escuro);
+    border: 1px solid var(--verde);
+    border-radius: 5px;
+    padding: 5px 68px;
+}
+
+button:hover {
+    background-color: var(--verde-claro-demais);
+    cursor: pointer;
+}
