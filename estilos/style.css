@@ -31,15 +31,15 @@ main {
     transform: translate(-50%, -50%);
 
     background-color: white;
-    height: 652px;
+    height: 630px;
     width: 270px;
     padding: 10px;
     border-radius: 20px;
-    box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.452);
+    box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.596);
 }
 
 div#imagem {
-    background-image: url(../imagens/pexels-eugene-golovesov-1810803-14914047.jpg);
+    background-image: url(../imagens/pexels-lawlesscapture.jpg);
     background-position: center center;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -59,30 +59,34 @@ main > section > div > h1 {
 
 main > section > div > p {
     text-align: justify;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 p.fundo {
     background-color: var(--lilás);
     border-radius: 10px;
     margin-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 3px;
 }
 
 input.config {
     background-color: var(--verde-claro-demais);
     border: 1px solid var(--verde-claro-demais);
     border-radius: 8px;
-    padding: 10px 60px 10px 10px;
+    padding: 15px 74px 10px 10px;
     margin-left: 2px;
-    font-size: 17px;
+    font-size: 13px;
 }
 
 span.material-symbols-outlined {
     color: white;
+    font-size: 33px;
 }
 
 span.material-symbols-outlined#cor {
     color: var(--verde-escuro);
+    font-size: 20px;
 }
 
 
@@ -91,7 +95,7 @@ input#enviar {
     color: white;
     font-size: 1.1em;
     margin-top: 7px;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     padding: 10px 110px 10px 110px;
     border: 1px solid var(--verde);
     border-radius: 5px;
@@ -114,7 +118,7 @@ button {
     color: var(--verde-escuro);
     border: 1px solid var(--verde);
     border-radius: 8px;
-    padding: 10px 58px;
+    padding: 10px 61px;
 }
 
 button:hover {
