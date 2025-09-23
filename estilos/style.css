@@ -80,16 +80,9 @@ input.config {
     font-size: 13px;
 }
 
-span.material-symbols-outlined {
-    color: white;
-    font-size: 33px;
+input.config:focus {
+    background-color: white;
 }
-
-span.material-symbols-outlined#cor {
-    color: var(--verde-escuro);
-    font-size: 20px;
-}
-
 
 input#enviar {
     background-color: var(--verde);
@@ -102,10 +95,19 @@ input#enviar {
     border-radius: 5px;
 }
 
-
 input#enviar:hover {
     background-color: var(--verde-escuro);
     cursor: pointer;
+}
+
+span.material-symbols-outlined {
+    color: white;
+    font-size: 33px;
+}
+
+span.material-symbols-outlined#cor {
+    color: var(--verde-escuro);
+    font-size: 20px;
 }
 
 a {
