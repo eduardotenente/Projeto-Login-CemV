@@ -39,6 +39,7 @@ main {
 }
 
 div#imagem {
+    display: block;
     background-image: url(../imagens/pexels-lawlesscapture.jpg);
     background-position: center center;
     border-top-left-radius: 20px;
@@ -69,6 +70,10 @@ p.fundo {
     margin-bottom: 10px;
     padding-bottom: 5px;
     padding-top: 3px;
+}
+
+label {
+    display: none;
 }
 
 input.config {
@@ -102,7 +107,7 @@ input#enviar:hover {
 
 span.material-symbols-outlined {
     color: white;
-    font-size: 33px;
+    font-size: 1.9em;
 }
 
 span.material-symbols-outlined#cor {
@@ -120,7 +125,7 @@ button {
     background-color: white;
     color: var(--verde-escuro);
     border: 1px solid var(--verde);
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 10px 61px;
 }
 

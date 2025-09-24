@@ -1,64 +1,46 @@
 @charset "UTF-8";
 
                     /* TABLET */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1025px) {
 
     body {
-        background-image: linear-gradient(to bottom, #5f2c82, #49a09d, #94CFCD);
+        background-image: linear-gradient(to top, #5f2c82, #49a09d, #94CFCD);
     }
 
     main {
-
+        width: 80vw;
+        height: 280px;
     }
 
     div#imagem {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom: none;
+        border-right: 1px solid gray;
+        margin: -10px 0px 0px -10px;
+        padding: 39px 0px 61px 0px;
+    }
 
+    p.fundo {
+        width: 30%;
     }
 
     input.config {
-
+        padding: 15px 25vw 10px 10px;
     }
 
     input#enviar {
-
+        width: 43vw;
     }
 
     button {
-
+        width: 43vw;
     }
 }
 
                     /* DESKTOP */
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
+@media screen and (min-width: 1025px) {
 
-    body {
-        background-image: linear-gradient(to bottom, #5f2c82, #49a09d, #94CFCD);
-    }
-
-    main {
-
-    }
-
-    div#imagem {
-
-    }
-
-    input.config {
-        
-    }
-
-    input#enviar {
-
-    }
-
-    button {
-
-    }
-}
-
-            /* Grandes Telas (TV, etc) */
-@media screen and (min-width: 1200px) {
-    
     body {
         background-image: linear-gradient(to bottom, #5f2c82, #49a09d, #94CFCD);
     }
