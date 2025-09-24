@@ -47,7 +47,7 @@ div#imagem {
     background-position: left bottom;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid gray;
     margin: -10px 0px 0px -11px;
     padding: 30px 20px 0px 1px;
     width: 270px;
